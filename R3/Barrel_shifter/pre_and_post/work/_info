@@ -1,0 +1,139 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Xbarrel_shift_pre_sv_unit
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1670885788
+VgjS^cEXVR1913EdPD<eH`1
+r1
+!s85 0
+!i10b 1
+!s100 7d[9^]IZ=14]?JDJ0e9Z]3
+IgjS^cEXVR1913EdPD<eH`1
+!i103 1
+S1
+Z2 dD:/Classes/621/Research/R3/Barrel_shifter/pre_and_post
+Z3 w1670885598
+Z4 8D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre.sv
+Z5 FD:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre.sv
+!i122 1
+L0 2 0
+Z6 OV;L;2020.1;71
+31
+Z7 !s108 1670885788.000000
+Z8 !s107 D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre.sv|
+Z9 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre.sv|
+!i113 1
+Z10 o-work work -sv
+Z11 tCvgOpt 0
+vbarrel_shifter_8_right
+R0
+Z12 DXx4 work 24 barrel_shift_pre_sv_unit 0 22 gjS^cEXVR1913EdPD<eH`1
+R1
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 H`4l7G[6W78eVWc7]`[9[1
+I``NgJ6a4LXG3j?gRBMz3G2
+Z14 !s105 barrel_shift_pre_sv_unit
+S1
+R2
+R3
+R4
+R5
+!i122 1
+L0 37 15
+R6
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vbarrel_shifter_multi_rev
+R0
+R12
+R1
+R13
+r1
+!s85 0
+!i10b 1
+!s100 2<[RRmIoMe>Tgeb8K?`<50
+I47c8@lO@S;H@Pd_eOo6SX3
+R14
+S1
+R2
+R3
+R4
+R5
+!i122 1
+L0 6 21
+R6
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vbarrel_shifter_multi_rev_testbench
+R0
+!s110 1670885789
+!i10b 1
+!s100 zXO>ESgZ9`acRRBOU2VeV0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I^MT@hdE;5f2LH7dO2OAUZ0
+R13
+S1
+R2
+w1670885781
+8D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre_tb.sv
+FD:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre_tb.sv
+!i122 2
+L0 3 25
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre_tb.sv|
+!i113 1
+R10
+R11
+vinverter_8
+R0
+R12
+R1
+R13
+r1
+!s85 0
+!i10b 1
+!s100 9=f5:bOdhcad[c>S^ULhM2
+I0AjP]D:G2??YTN;kI?NO41
+R14
+S1
+R2
+R3
+R4
+R5
+!i122 1
+L0 29 7
+R6
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

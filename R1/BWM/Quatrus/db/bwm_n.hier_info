@@ -1,0 +1,255 @@
+|bwm_n
+a[0] => a[0].IN3
+a[1] => a[1].IN5
+a[2] => a[2].IN4
+a[3] => a[3].IN4
+b[0] => b[0].IN4
+b[1] => b[1].IN4
+b[2] => b[2].IN4
+b[3] => b[3].IN4
+p[0] <= white_cell:w0.port5
+p[1] <= white_cell:w2.port5
+p[2] <= white_cell:w5.port5
+p[3] <= black_cell:b2.port5
+p[4] <= fulladder:fa1.port3
+p[5] <= fulladder:fa2.port3
+p[6] <= fulladder:fa3.port3
+p[7] <= fulladder:fa4.port3
+
+
+|bwm_n|white_cell:w0
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w1
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w2
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w3
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w4
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w5
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|black_cell:b1
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w6
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w7
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|black_cell:b2
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|black_cell:b3
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w8
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|black_cell:b4
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|fulladder:fa1
+a => WideXor0.IN0
+b => WideXor0.IN1
+c => WideXor0.IN2
+s <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|black_cell:b5
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|black_cell:b6
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|fulladder:fa2
+a => WideXor0.IN0
+b => WideXor0.IN1
+c => WideXor0.IN2
+s <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|white_cell:w9
+a => w.IN0
+a => WideXor0.IN1
+b => w.IN1
+b => WideXor0.IN2
+c => w2.IN0
+c => w3.IN1
+s => w1.IN1
+s => w2.IN1
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+so <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|fulladder:fa3
+a => WideXor0.IN0
+b => WideXor0.IN1
+c => WideXor0.IN2
+s <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bwm_n|fulladder:fa4
+a => WideXor0.IN0
+b => WideXor0.IN1
+c => WideXor0.IN2
+s <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+

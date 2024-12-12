@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vbwm
+Z0 !s110 1666040201
+!i10b 1
+!s100 YUa61lmom8WHoSR:6]3EG3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ITCFz:6W6g9GS]fTjA[Toc3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Classes/621/Research/R1/modelsim
+Z4 w1666040144
+Z5 8D:/Classes/621/Research/R1/bwm.v
+Z6 FD:/Classes/621/Research/R1/bwm.v
+!i122 5
+L0 18 24
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1666040201.000000
+!s107 D:/Classes/621/Research/R1/bwm.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/621/Research/R1/bwm.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vbwm_tb
+!s110 1665262826
+!i10b 1
+!s100 >I@W9AQLP<SWKZIV9l2Se3
+R1
+I5XYh>[`Y325D;oA9BllR00
+R2
+R3
+w1665262820
+Z12 8D:/Classes/621/Research/R1/bmw_tb.v
+Z13 FD:/Classes/621/Research/R1/bmw_tb.v
+!i122 3
+L0 1 38
+R7
+r1
+!s85 0
+31
+!s108 1665262826.000000
+Z14 !s107 D:/Classes/621/Research/R1/bmw_tb.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|D:/Classes/621/Research/R1/bmw_tb.v|
+!i113 1
+R10
+R11
+vfull_adder
+R0
+!i10b 1
+!s100 HFkoM]Qg@zEJ3ON_hX1R10
+R1
+IhFJZQRgiLVJJ6OOTF^RWo0
+R2
+R3
+R4
+R5
+R6
+!i122 5
+L0 10 6
+R7
+r1
+!s85 0
+31
+R8
+Z16 !s107 D:/Classes/621/Research/R1/bwm.v|
+R9
+!i113 1
+R10
+R11
+vhalf_adder
+R0
+!i10b 1
+!s100 aLOOg_ID<2FfC6NeP`bkA2
+R1
+I6]gQPj]H8Q4A3Y9S8def]1
+R2
+R3
+R4
+R5
+R6
+!i122 5
+L0 2 6
+R7
+r1
+!s85 0
+31
+R8
+R16
+R9
+!i113 1
+R10
+R11
+vtest_multiply
+R0
+!i10b 1
+!s100 ]J^8P9hPDAhBYFLk]CYLz3
+R1
+Inemd6SAAjlQ=:h6P3G:RB2
+R2
+R3
+w1665284304
+R12
+R13
+!i122 4
+L0 1 55
+R7
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R10
+R11

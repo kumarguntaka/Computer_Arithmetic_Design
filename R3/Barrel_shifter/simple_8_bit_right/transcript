@@ -1,0 +1,48 @@
+# Compile of simple_8_bit.v failed with 2 errors.
+# Compile of simple_8_bit_tb.v failed with 2 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of simple_8_bit.v failed with 2 errors.
+# Compile of simple_8_bit_tb.v failed with 2 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of simple_8_bit.sv was successful.
+# Compile of simple_8_bit_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.barrel_shifter_built_case_testbench
+# vsim -gui work.barrel_shifter_built_case_testbench 
+# Start time: 10:42:50 on Dec 12,2022
+# Loading sv_std.std
+# Loading work.barrel_shifter_built_case_testbench
+# Loading work.barrel_shifter_built_case
+add wave -position insertpoint sim:/barrel_shifter_built_case_testbench/*
+run -all
+# ** Note: $stop    : D:/Classes/621/Research/R3/Barrel_shifter/simple_8_bit_right/simple_8_bit_tb.sv(15)
+#    Time: 80 ns  Iteration: 0  Instance: /barrel_shifter_built_case_testbench
+# Break in Module barrel_shifter_built_case_testbench at D:/Classes/621/Research/R3/Barrel_shifter/simple_8_bit_right/simple_8_bit_tb.sv line 15
+force -freeze sim:/barrel_shifter_built_case_testbench/data 01101001 0
+run -all
+run -all
+force -drive sim:/barrel_shifter_built_case_testbench/data 01101001 0
+# ** UI-Msg: (vsim-3458) Cannot use the 'force -drive' command on a register.
+# 
+run -all
+run -all
+run -all
+run -all
+# Compile of simple_8_bit.sv was successful.
+# Compile of simple_8_bit_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.barrel_shifter_built_case_testbench
+# End time: 11:25:37 on Dec 12,2022, Elapsed time: 0:42:47
+# Errors: 0, Warnings: 17
+# vsim -gui work.barrel_shifter_built_case_testbench 
+# Start time: 11:25:37 on Dec 12,2022
+# Loading sv_std.std
+# Loading work.barrel_shifter_built_case_testbench
+# Loading work.barrel_shifter_built_case
+add wave -position insertpoint sim:/barrel_shifter_built_case_testbench/*
+run -all
+# ** Note: $stop    : D:/Classes/621/Research/R3/Barrel_shifter/simple_8_bit_right/simple_8_bit_tb.sv(15)
+#    Time: 80 ns  Iteration: 0  Instance: /barrel_shifter_built_case_testbench
+# Break in Module barrel_shifter_built_case_testbench at D:/Classes/621/Research/R3/Barrel_shifter/simple_8_bit_right/simple_8_bit_tb.sv line 15
+# End time: 11:47:41 on Dec 12,2022, Elapsed time: 0:22:04
+# Errors: 0, Warnings: 1

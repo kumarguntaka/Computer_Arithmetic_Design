@@ -1,0 +1,36 @@
+D:/Classes/621/Research/R1/BWM/fulladder.v {1 {vlog -work work -stats=none D:/Classes/621/Research/R1/BWM/fulladder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} D:/Classes/621/Research/R1/BWM/bwm_n.v {1 {vlog -work work -stats=none D:/Classes/621/Research/R1/BWM/bwm_n.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bwm_n
+
+Top level modules:
+	bwm_n
+
+} {} {}} D:/Classes/621/Research/R1/BWM/white_cell.v {1 {vlog -work work -stats=none D:/Classes/621/Research/R1/BWM/white_cell.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module white_cell
+
+Top level modules:
+	white_cell
+
+} {} {}} D:/Classes/621/Research/R1/BWM/bwm_n_tb.v {1 {vlog -work work -stats=none D:/Classes/621/Research/R1/BWM/bwm_n_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bwm_n_tb
+
+Top level modules:
+	bwm_n_tb
+
+} {} {}} D:/Classes/621/Research/R1/BWM/black_cell.v {1 {vlog -work work -stats=none D:/Classes/621/Research/R1/BWM/black_cell.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module black_cell
+
+Top level modules:
+	black_cell
+
+} {} {}}

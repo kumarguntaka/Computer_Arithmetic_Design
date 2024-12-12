@@ -1,0 +1,19 @@
+# Compile of multifunction.sv was successful with warnings.
+# Compile of multifunction_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.barrel_shifter_N_tb
+# vsim -gui work.barrel_shifter_N_tb 
+# Start time: 14:59:30 on Dec 12,2022
+# Loading sv_std.std
+# Loading work.barrel_shifter_N_tb
+# Loading work.multifunction_sv_unit
+# Loading work.barrel_shifter_N
+# Loading work.barrel_shifter_N_right
+# Loading work.inverter_width
+add wave -position insertpoint sim:/barrel_shifter_N_tb/*
+run -all
+# ** Note: $stop    : D:/Classes/621/Research/R3/Barrel_shifter/multifunction/multifunction_tb.sv(32)
+#    Time: 5120 ns  Iteration: 0  Instance: /barrel_shifter_N_tb
+# Break in Module barrel_shifter_N_tb at D:/Classes/621/Research/R3/Barrel_shifter/multifunction/multifunction_tb.sv line 32
+# End time: 15:33:20 on Dec 12,2022, Elapsed time: 0:33:50
+# Errors: 0, Warnings: 2

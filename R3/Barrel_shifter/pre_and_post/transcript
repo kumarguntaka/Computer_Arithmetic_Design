@@ -1,0 +1,22 @@
+# Compile of barrel_shift_pre.sv was successful.
+# Compile of barrel_shift_pre_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of barrel_shift_pre.sv was successful with warnings.
+# Compile of barrel_shift_pre_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.barrel_shifter_multi_rev_testbench
+# vsim -gui work.barrel_shifter_multi_rev_testbench 
+# Start time: 14:56:38 on Dec 12,2022
+# Loading sv_std.std
+# Loading work.barrel_shifter_multi_rev_testbench
+# Loading work.barrel_shift_pre_sv_unit
+# Loading work.barrel_shifter_multi_rev
+# Loading work.barrel_shifter_8_right
+# Loading work.inverter_8
+add wave -position insertpoint sim:/barrel_shifter_multi_rev_testbench/*
+run -all
+# ** Note: $stop    : D:/Classes/621/Research/R3/Barrel_shifter/pre_and_post/barrel_shift_pre_tb.sv(24)
+#    Time: 160 ns  Iteration: 0  Instance: /barrel_shifter_multi_rev_testbench
+# Break in Module barrel_shifter_multi_rev_testbench at D:/Classes/621/Research/R3/Barrel_shifter/pre_and_post/barrel_shift_pre_tb.sv line 24
+# End time: 14:58:42 on Dec 12,2022, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 6

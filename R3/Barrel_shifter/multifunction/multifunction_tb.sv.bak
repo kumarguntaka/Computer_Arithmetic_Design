@@ -1,0 +1,29 @@
+`timescale 1ns / 1ps
+
+module barrel_shifter_N_testbench;
+
+const logic ROTATE_LEFT = 1'b1;
+const logic ROTATE_RIGHT = 1'b0;
+    localparam N = 4;
+    localparam WIDTH = 2**N;
+    
+    logic [WIDTH-1:0] data;
+    logic [N-1:0] amt;
+    logic [WIDTH-1:0] out;
+    logic dir_lr;
+
+    barrel_shifter_N #(.N(N)) uut(.*);
+
+    initial begin
+        for (int i = 0; i < WIDTH; ++i)
+            begin
+                data = 7; amt = i; dir_lr = ROTATE_LEFT; N=4; #10;
+            end
+        for (int i = 0; i < WIDTH; ++i)
+            begin
+                data = 7; amt =i; dir_lr = ROTATE_RIGHT; N=4;  #10;
+            end
+        $stop;
+    end
+
+endmodule

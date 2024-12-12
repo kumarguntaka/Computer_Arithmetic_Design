@@ -1,0 +1,19 @@
+D:/Classes/621/Research/R3/Barrel_shifter/pre_and_post/barrel_shift_pre.sv {2 {vlog -work work -sv -stats=none {D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre.sv(2): (vlog-13233) Design unit "barrel_shift_pre_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package barrel_shift_pre_sv_unit
+-- Compiling module barrel_shifter_multi_rev
+-- Compiling module inverter_8
+-- Compiling module barrel_shifter_8_right
+
+Top level modules:
+	barrel_shifter_multi_rev
+
+} {} {}} D:/Classes/621/Research/R3/Barrel_shifter/pre_and_post/barrel_shift_pre_tb.sv {1 {vlog -work work -sv -stats=none {D:\Classes\621\Research\R3\Barrel_shifter\pre_and_post\barrel_shift_pre_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module barrel_shifter_multi_rev_testbench
+
+Top level modules:
+	barrel_shifter_multi_rev_testbench
+
+} {} {}}

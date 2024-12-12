@@ -1,0 +1,17 @@
+D:/Classes/621/Research/R1/bwm.v {1 {vlog -work work -stats=none D:/Classes/621/Research/R1/bwm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module bwm
+
+Top level modules:
+	bwm
+
+} {} {}} D:/Classes/621/Research/R1/bmw_tb.v {1 {vlog -work work -stats=none D:/Classes/621/Research/R1/bmw_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_multiply
+
+Top level modules:
+	test_multiply
+
+} {} {}}

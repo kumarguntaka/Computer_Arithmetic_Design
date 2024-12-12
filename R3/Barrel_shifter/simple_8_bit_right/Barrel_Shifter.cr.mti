@@ -1,0 +1,15 @@
+D:/Classes/621/Research/R3/Barrel_shifter/simple_8_bit_right/simple_8_bit.sv {1 {vlog -work work -sv -stats=none {D:\Classes\621\Research\R3\Barrel_shifter\simple_8_bit_right\simple_8_bit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module barrel_shifter_built_case
+
+Top level modules:
+	barrel_shifter_built_case
+
+} {} {}} D:/Classes/621/Research/R3/Barrel_shifter/simple_8_bit_right/simple_8_bit_tb.sv {1 {vlog -work work -sv -stats=none {D:\Classes\621\Research\R3\Barrel_shifter\simple_8_bit_right\simple_8_bit_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module barrel_shifter_built_case_testbench
+
+Top level modules:
+	barrel_shifter_built_case_testbench
+
+} {} {}}
