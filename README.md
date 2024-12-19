@@ -1,0 +1,1 @@
+Welcome to the 621_repo! This repository contains few of the assignments, projects, and materials I worked on during the Computer Arithmetic Systems course. The course focused on exploring concepts in computer arithmetic, including the design, analysis, and optimization of arithmetic systems used in digital computing.
